@@ -3,6 +3,10 @@ import "./App.css";
 import Home from "./pages/home";
 import NotFound from "./pages/notFound";
 import { GetStart } from "./pages/getStarted";
+import { Learning } from "./pages/learning";
+import { Events } from "./pages/events";
+import { Profile } from "./pages/profile";
+import { Notification } from "./pages/notification";
 
 function App() {
 	const router = createBrowserRouter([
@@ -23,27 +27,22 @@ function App() {
       path: "/home",
       element: <Home />,
     },
-    // TODO: for future reference
-    // {
-    // 	path: "/",
-    // 	element: <PrivateRoute />,
-    // 	children: [
-    // 		{
-    // 			path: "/profile",
-    // 			element: <Profile />,
-    // 		},
-    // 		{
-    // 			path: "/",
-    // 			element: <RoleChecker allowedRoles={[Roles.ADMIN]} />,
-    // 			children: [
-    // 				{
-    // 					path: "/payment-status",
-    // 					element: <Admin />,
-    // 				},
-    // 			],
-    // 		},
-    // 	],
-    // },
+    {
+      path: "/learning",
+      element: <Learning />,
+    },
+    {
+      path: "/events",
+      element: <Events />,
+    },
+    {
+      path: "/profile",
+      element: <Profile />,
+    },
+    {
+      path: "/notification",
+      element: <Notification />,
+    },
   ]);
 	return (
 		<div className="App">

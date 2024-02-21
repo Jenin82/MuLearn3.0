@@ -16,3 +16,17 @@
 .Wrapper button>svg{
     height: 30px;
 }
+
+
+.TopnavWrapper{
+   
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10%;
+
+}
+
+.TopnavWrapper button{
+    background-color: transparent;
+}
