@@ -1,8 +1,6 @@
-
+import styles from "./Home.module.css";
 const Home = () => {
-  return (
-	<div>Home</div>
-  )
-}
+  return <div className={styles.Wrapper}>Home</div>;
+};
 
-export default Home
+export default Home;
