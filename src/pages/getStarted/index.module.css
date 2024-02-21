@@ -1,0 +1,50 @@
+.Wrapper {
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+  padding: 10% 0px 5%;
+  /* background: linear-gradient(170deg, #692a6f 0%, #210535 69.69%); */
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Wrapper > .Rock {
+  width: 100%;
+  height: 70vh;
+  min-width: 350px;
+  max-width: 480px;
+  object-fit: cover;
+}
+
+.Wrapper > div {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 15%;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.Wrapper > div > img {
+  width: 170px;
+}
+
+.Wrapper button{
+    background-color: white;
+    color: #210535;
+    padding: 10px 20px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+}
+
+.Wrapper .planet {
+  width: 100px;
+  position: absolute;
+  bottom: -30px;
+  right: -30px;
+}
