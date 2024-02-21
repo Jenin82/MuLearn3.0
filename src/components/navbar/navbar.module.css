@@ -1,0 +1,18 @@
+.Wrapper {
+  width: 100%;
+  background: rgba(123, 51, 125, 0.6);
+  padding: 8px 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+}
+
+.Wrapper button{
+    background-color: transparent;
+}
+
+.Wrapper button>svg{
+    height: 30px;
+}

@@ -1,7 +1,14 @@
 import React from "react";
 import styles from "./index.module.css";
+import { useNavigate } from "react-router-dom";
 
 const NotFound: React.FC = () => {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate("/home");
+  };
+
   return (
     <div className={styles.wrapper}>
       <h1>404 Not Found</h1>
@@ -155,7 +162,7 @@ const NotFound: React.FC = () => {
         <path d="M132 151L125.072 139H138.928L132 151Z" fill="#CF0909" />
       </svg>
       <p>Sorry, the page you are looking for doesn't exist.</p>
-      <a href="/">Go Back</a>
+      <button onClick={handleClick}>Go Back</button>
     </div>
   );
 };
