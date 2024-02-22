@@ -1,0 +1,29 @@
+.Wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 0px 10%;
+  text-align: left;
+}
+
+.Wrapper h1 {
+  font-size: 8vw;
+  font-weight: 400;
+}
+
+.Wrapper > div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+}
+.Wrapper .logowrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.Wrapper .logowrapper img{
+    width: calc(100% / 4);
+    height: 40px;
+    object-fit: contain;
+}

@@ -1,4 +1,5 @@
 import styles from "./index.module.css";
+import image from './image.png'
 type Props = {};
 
 export const Landing = (_props: Props) => {
@@ -11,7 +12,7 @@ export const Landing = (_props: Props) => {
         <h1>Together.</h1>
       </div>
       <button>Join</button>
-      <img src="" alt="" />
+      <img src={image} alt="" />
     </div>
   );
 };
