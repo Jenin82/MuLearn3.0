@@ -1,5 +1,7 @@
 import { Nabvar } from "../../components/navbar";
 import { Topnav } from "../../components/navbar/topnav";
+import { CurrentEvent } from "./components/currentEvents";
+import { Previousevents } from "./components/previousEvents";
 import { UpComing } from "./components/upComing";
 import styles from "./index.module.css";
 
@@ -10,7 +12,8 @@ export const Events = (_props: Props) => {
     <div className={styles.Wrapper}>
       <Topnav />
       <UpComing />
-
+      <CurrentEvent />
+      <Previousevents />
       <Nabvar />
     </div>
   );
