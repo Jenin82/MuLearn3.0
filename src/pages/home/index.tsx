@@ -1,6 +1,6 @@
 import { Nabvar } from "../../components/navbar";
 import { Topnav } from "../../components/navbar/topnav";
-import styles from "./Home.module.css";
+import styles from "./index.module.css";
 import { Landing } from "./components/landing";
 const Home = () => {
   return (
