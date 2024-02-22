@@ -16,7 +16,7 @@ export const CurrentEvent = (_props: Props) => {
       <h1>
         Current Events <span className="colorText">Events</span>
       </h1>
-      <div>
+      <div className={styles.Container}>
         {CurrentEvents.map((item, index) => {
           return (
             <div
@@ -25,6 +25,7 @@ export const CurrentEvent = (_props: Props) => {
               className={styles.Card}
             >
               <img src={item.img} alt="" />
+              <p>{item.name}</p>
             </div>
           );
         })}

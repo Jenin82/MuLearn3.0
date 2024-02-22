@@ -7,7 +7,6 @@ type Props = {};
 export const UpComing = (_props: Props) => {
   const navigate = useNavigate();
 
-
   const handleClick = (id: number) => () => {
     navigate(`/detailevent/${id}`, { state: { eventName: "UpComingEvents" } });
   };
@@ -17,7 +16,7 @@ export const UpComing = (_props: Props) => {
       <h1>
         Upcoming Coming <span className="colorText">Events</span>
       </h1>
-      <div>
+      <div className={styles.Container}>
         {UpComingEvents.map((item, index) => {
           return (
             <div
@@ -26,6 +25,7 @@ export const UpComing = (_props: Props) => {
               className={styles.Card}
             >
               <img src={item.img} alt="" />
+              <p>{item.name}</p>
             </div>
           );
         })}

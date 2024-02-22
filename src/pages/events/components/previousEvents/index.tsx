@@ -16,7 +16,7 @@ export const Previousevents = (_props: Props) => {
       <h1>
         Previous Events <span className="colorText">Events</span>
       </h1>
-      <div>
+      <div className={styles.Container}>
         {PreviousEvents.map((item, index) => {
           return (
             <div
@@ -25,6 +25,7 @@ export const Previousevents = (_props: Props) => {
               className={styles.Card}
             >
               <img src={item.img} alt="" />
+              <p>{item.name}</p>
             </div>
           );
         })}
