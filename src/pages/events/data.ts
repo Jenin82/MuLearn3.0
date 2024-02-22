@@ -7,7 +7,8 @@ import salt from "./assets/salt.jpeg";
 import scale from "./assets/scale.jpeg";
 import scaleit from "./assets/scaleit.jpeg";
 import permute from "./assets/permute.png";
-
+import top from "./assets/top100.png";
+import sandy from "./assets/sandy.png";
 
 export const CurrentEvents = [
   {
@@ -57,10 +58,10 @@ export const UpComingEvents = [
   {
     id: 1,
     img: in50hrs,
-    name: "In 50 Hours",
+    name: "In50Hrs",
     link: "https://gta.mulearn.org/",
     description:
-      "Get ready to embark on a transformative journey of innovation and collaboration with the Grand Tech Adventures (GTA) series. Our 7-series offline hackathon saga is designed to redefine the way young minds experience technology and problem-solving. Each event is a chapter in this epic tech odyssey, uniting students, mentors, and industry leaders to explore a world of endless possibilities. Get ready for the next wave of innovation and tech brilliance as we introduce GTA: Sandshore Hackathon. After the success of CodeStorm, the adventure continues.",
+      "Get ready for In50hrs an exciting collaborative event by uLearn, Kerala Startup Mission, Kerala Startups, and Faya Port:80!. Participants come together to form teams, pitch their innovative ideas, build prototypes, and present them to a distinguished jury comprising incubators, accelerators, and seed fund investors.",
   },
   {
     id: 2,
@@ -88,5 +89,20 @@ export const PreviousEvents = [
     description:
       "Learning Fest, conducted in partnership with KKEM, presented a series of bootcamps aiming to enhance skills across diverse domains. Participants delve into workshops, earning karma points and unlocking numerous opportunities. This event initiated both personal growth and professional development, empowering individuals to excel in their respective interest areas.",
   },
-
+  {
+    id: 2,
+    img: top,
+    name: "Top 100 Coders",
+    link: "https://gta.mulearn.org/",
+    description:
+      "The Top 100 Coders at Huddle Global 2023 saw a gathering of India's elite coders, showcasing their programming prowess. Amidst fierce competition for talent and innovation, 100 emerged victorious and were celebrated, clear evidence of India's coding brilliance, inspiring future coders. This is an annual event to filter out the Top 100 Coders, Designers, and Makers.",
+  },
+  {
+    id: 3,
+    img: sandy,
+    name: "GTA Hackathon Series",
+    link: "https://gta.mulearn.org/",
+    description:
+      "The GTA SERIES, featuring CODESTORM and SANDSHORE, are hackathons encouraging innovation that acted as a pillar of success as coders united, unleashing creativity to tackle challenges. These events played a major role in driving advancement and collaboration within the coding community, leaving a lasting impact on participants.",
+  }
 ];
