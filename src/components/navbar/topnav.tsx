@@ -1,17 +1,17 @@
 import { useState, useEffect } from "react";
 import styles from "./navbar.module.css";
 import { Mulearnsvg } from "../../assets/svg";
-import { Notifisvg } from "./svg";
+// import { Notifisvg } from "./svg";
 import { useNavigate } from "react-router-dom";
 import { useReactPath } from "./path.hook";
 
 type Props = {};
 
 
-type NavItem = {
-  path: string;
-  Icon: React.ElementType;
-};
+// type NavItem = {
+//   path: string;
+//   Icon: React.ElementType;
+// };
 
 export const Topnav = (_props: Props) => {
   const [lastScrollY, setLastScrollY] = useState(window.scrollY);
@@ -28,16 +28,16 @@ export const Topnav = (_props: Props) => {
           top: 0,
           width: "100%",
         });
-      } 
-      
-      
+      }
+
+
       else {
         setNavStyle({
           position: "static",
         });
       }
 
-      if(window.scrollY == 0){
+      if (window.scrollY == 0) {
         setNavStyle({
           position: "static",
         });
@@ -60,21 +60,21 @@ export const Topnav = (_props: Props) => {
   };
   const path = useReactPath();
 
-  const navItems: NavItem[] = [{ path: "/notification", Icon: Notifisvg }];
+  // const navItems: NavItem[] = [{ path: "/notification", Icon: Notifisvg }];
 
-  useEffect(() => {}, [path]);
+  useEffect(() => { }, [path]);
 
-  const renderNavButton = ({ path, Icon }: NavItem) => (
-    <button onClick={() => handleNavigation(path)}>
-      <Icon color={window.location.href.includes(path) ? "#210535" : "#fff"} />
-    </button>
-  );
+  // const renderNavButton = ({ path, Icon }: NavItem) => (
+  //   <button onClick={() => handleNavigation(path)}>
+  //     <Icon color={window.location.href.includes(path) ? "#210535" : "#fff"} />
+  //   </button>
+  // );
   return (
     <div style={navStyle} className={styles.TopnavWrapper}>
       <button onClick={() => handleNavigation("/home")}>
         <Mulearnsvg />
       </button>
-      {navItems.map((item) => renderNavButton(item))}
+      {/* {navItems.map((item) => renderNavButton(item))} */}
     </div>
   );
 };

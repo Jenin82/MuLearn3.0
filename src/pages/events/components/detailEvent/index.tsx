@@ -1,6 +1,7 @@
 import { useLocation, useParams } from "react-router-dom";
 import { CurrentEvents, PreviousEvents, UpComingEvents } from "../../data";
-
+import styles from './index.module.css'
+import { Nabvar } from "../../../../components/navbar";
 type Props = {};
 
 type Event = {
@@ -32,30 +33,35 @@ export const DetaliEvent = (_props: Props) => {
 
   return (
     <>
-      <div>
-        <h1>{id}</h1>
+      <div className={styles.Wrapper}>
+
         {eventName === "UpComingEvents" && upcomingevents && (
           <div>
             <img src={upcomingevents.img} alt="" />
-            <h2>Nome: {upcomingevents.name}</h2>
-            <h2>id: {upcomingevents.id}</h2>
+            <h2>{upcomingevents.name}</h2>
+            <a href={upcomingevents.link}>Link</a>
+            <p>{upcomingevents.description}</p>
           </div>
         )}
         {eventName === "CurrentEvents" && currentEvent && (
           <div>
             <img src={currentEvent.img} alt="" />
-            <h2>Nome: {currentEvent.name}</h2>
-            <h2>id: {currentEvent.id}</h2>
+            <h2>{currentEvent.name}</h2>
+            <a href={currentEvent.link}>Link</a>
+            <p>{currentEvent.description}</p>
           </div>
         )}
         {eventName === "PreviousEvents" && previousevents && (
           <div>
             <img src={previousevents.img} alt="" />
-            <h2>Nome: {previousevents.name}</h2>
-            <h2>id: {previousevents.id}</h2>
+            <h2>{previousevents.name}</h2>
+            <a href={previousevents.link}>Link</a>
+            <p>{previousevents.description}</p>
           </div>
         )}
+
       </div>
+      <Nabvar />
     </>
   );
 };

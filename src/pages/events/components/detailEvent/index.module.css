@@ -1,0 +1,18 @@
+.Wrapper {
+    min-height: 100vh;
+
+}
+
+.Wrapper>div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+    padding: 10% 10% 80px;
+}
+
+.Wrapper h2 {
+    font-size: 8vw;
+    font-weight: 500;
+    color: #C064EC;
+}
