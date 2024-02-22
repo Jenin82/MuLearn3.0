@@ -1,0 +1,231 @@
+{
+  "hasError": false,
+  "statusCode": 200,
+  "message": {
+    "general": []
+  },
+  "response": {
+    "interestGroup": [
+      {
+        "id": "04d29c15-4de4-4b43-ad63-0f4760c62919",
+        "name": "Product Management",
+        "icon": "a",
+        "code": "PM",
+        "members": 2128,
+        "updated_by": "Shaheen Hyder",
+        "updated_at": "2023-03-13T23:59:21Z",
+        "created_by": "Shaheen Hyder",
+        "created_at": "2023-03-13T23:59:21Z"
+      },
+      {
+        "id": "1719d19a-0206-4161-9c6f-0a7dba44d4e5",
+        "name": "Cloud And Devops",
+        "icon": "a",
+        "code": "CAD",
+        "members": 1023,
+        "updated_by": "Shaheen Hyder",
+        "updated_at": "2023-03-13T23:59:21Z",
+        "created_by": "Shaheen Hyder",
+        "created_at": "2023-03-13T23:59:21Z"
+      },
+      {
+        "id": "235ccbd6-07d9-445b-9236-078d5d2903b2",
+        "name": "No Or Low Code",
+        "icon": "a",
+        "code": "NLC",
+        "members": 194,
+        "updated_by": "Shaheen Hyder",
+        "updated_at": "2023-05-26T06:47:41Z",
+        "created_by": "Shaheen Hyder",
+        "created_at": "2023-05-26T06:47:41Z"
+      },
+      {
+        "id": "243a1bda-893c-4de3-b457-51e7cb517d83",
+        "name": "Entrepreneurship",
+        "icon": "a",
+        "code": "ENT",
+        "members": 2434,
+        "updated_by": "Shaheen Hyder",
+        "updated_at": "2023-03-13T23:59:21Z",
+        "created_by": "Shaheen Hyder",
+        "created_at": "2023-03-13T23:59:21Z"
+      },
+      {
+        "id": "2de0ee0c-ddc3-4f02-bf93-b6bd2d0625c3",
+        "name": "Ar Vr Mr",
+        "icon": "a",
+        "code": "ARVR",
+        "members": 884,
+        "updated_by": "Shaheen Hyder",
+        "updated_at": "2023-03-13T23:59:21Z",
+        "created_by": "Shaheen Hyder",
+        "created_at": "2023-03-13T23:59:21Z"
+      },
+      {
+        "id": "3a74725e-a05a-418b-a275-39d68ad9a416",
+        "name": "Cyber Security",
+        "icon": "a",
+        "code": "CYB",
+        "members": 7683,
+        "updated_by": "Shaheen Hyder",
+        "updated_at": "2023-03-13T23:59:21Z",
+        "created_by": "Shaheen Hyder",
+        "created_at": "2023-03-13T23:59:21Z"
+      },
+      {
+        "id": "46fe1fb7-7b04-4ebe-837d-120bc16d0e0a",
+        "name": "Ui Ux",
+        "icon": "a",
+        "code": "UIUX",
+        "members": 2396,
+        "updated_by": "Shaheen Hyder",
+        "updated_at": "2023-03-13T23:59:21Z",
+        "created_by": "Shaheen Hyder",
+        "created_at": "2023-03-13T23:59:21Z"
+      },
+      {
+        "id": "4922b746-a71f-4aa3-869a-96a25b6072db",
+        "name": "Mobile Development",
+        "icon": "a",
+        "code": "MOB",
+        "members": 2121,
+        "updated_by": "Shaheen Hyder",
+        "updated_at": "2023-03-13T23:59:21Z",
+        "created_by": "Shaheen Hyder",
+        "created_at": "2023-03-13T23:59:21Z"
+      },
+      {
+        "id": "4ac6cca9-9157-4a07-8d71-edb62b2e5c35",
+        "name": "Ai",
+        "icon": "a",
+        "code": "AI",
+        "members": 7268,
+        "updated_by": "Shaheen Hyder",
+        "updated_at": "2023-03-13T23:59:21Z",
+        "created_by": "Shaheen Hyder",
+        "created_at": "2023-03-13T23:59:21Z"
+      },
+      {
+        "id": "4ddfca30-56ca-47c8-83fc-6944081a6260",
+        "name": "Marketing",
+        "icon": "a",
+        "code": "MARK",
+        "members": 2507,
+        "updated_by": "Shaheen Hyder",
+        "updated_at": "2023-03-13T23:59:21Z",
+        "created_by": "Shaheen Hyder",
+        "created_at": "2023-03-13T23:59:21Z"
+      },
+      {
+        "id": "59d408b4-cfc0-4369-a147-59f00cf6670b",
+        "name": "3D Animation and Game Development",
+        "icon": "a",
+        "code": "AGM",
+        "members": 685,
+        "updated_by": "Shaheen Hyder",
+        "updated_at": "2023-06-04T18:42:29Z",
+        "created_by": "Shaheen Hyder",
+        "created_at": "2023-06-04T18:42:29Z"
+      },
+      {
+        "id": "6cf3bc70-3ff8-457b-ace4-86d4a1df7f2d",
+        "name": "Competitive Coding",
+        "icon": "a",
+        "code": "CC",
+        "members": 1934,
+        "updated_by": "Shaheen Hyder",
+        "updated_at": "2023-03-13T23:59:21Z",
+        "created_by": "Shaheen Hyder",
+        "created_at": "2023-03-13T23:59:21Z"
+      },
+      {
+        "id": "85130a05-7dc8-4888-a486-e3e50eafc75c",
+        "name": "Blockchain",
+        "icon": "a",
+        "code": "BLOC",
+        "members": 1381,
+        "updated_by": "Shaheen Hyder",
+        "updated_at": "2023-03-13T23:59:21Z",
+        "created_by": "Shaheen Hyder",
+        "created_at": "2023-03-13T23:59:21Z"
+      },
+      {
+        "id": "9b8aaf7f-16a0-4a66-ae53-79b8c25e5faa",
+        "name": "Web Development",
+        "icon": "a",
+        "code": "WEB",
+        "members": 9917,
+        "updated_by": "Shaheen Hyder",
+        "updated_at": "2023-03-13T23:59:21Z",
+        "created_by": "Shaheen Hyder",
+        "created_at": "2023-03-13T23:59:21Z"
+      },
+      {
+        "id": "c78e8429-d515-450e-9528-0db6b08a5030",
+        "name": "Strategic Leadership",
+        "icon": "a",
+        "code": "SL",
+        "members": 463,
+        "updated_by": "Shaheen Hyder",
+        "updated_at": "2023-03-13T23:59:21Z",
+        "created_by": "Shaheen Hyder",
+        "created_at": "2023-03-13T23:59:21Z"
+      },
+      {
+        "id": "d2427189-bed5-46a2-8196-cda49ad39b56",
+        "name": "Civil",
+        "icon": "a",
+        "code": "CIV",
+        "members": 199,
+        "updated_by": "Shaheen Hyder",
+        "updated_at": "2023-03-26T22:31:03Z",
+        "created_by": "Shaheen Hyder",
+        "created_at": "2023-03-26T22:31:03Z"
+      },
+      {
+        "id": "d379d82b-e116-4b67-8128-670916e6bb42",
+        "name": "Internet Of Things (IOT) And Robotics",
+        "icon": "a",
+        "code": "IOT",
+        "members": 5017,
+        "updated_by": "Shaheen Hyder",
+        "updated_at": "2023-03-13T23:59:21Z",
+        "created_by": "Shaheen Hyder",
+        "created_at": "2023-03-13T23:59:21Z"
+      },
+      {
+        "id": "e36ef538-80ce-48a8-92dd-c8e9e6236fbb",
+        "name": "Creative Design",
+        "icon": "a",
+        "code": "CRD",
+        "members": 4394,
+        "updated_by": "Shaheen Hyder",
+        "updated_at": "2023-03-13T23:59:21Z",
+        "created_by": "Shaheen Hyder",
+        "created_at": "2023-03-13T23:59:21Z"
+      },
+      {
+        "id": "eb2b7b9a-599f-4366-aa8e-7878624953e4",
+        "name": "Beckn",
+        "icon": "Beckn",
+        "code": "BEC",
+        "members": 11,
+        "updated_by": "Shaheen Hyder",
+        "updated_at": "2024-01-10T21:42:39Z",
+        "created_by": "Shaheen Hyder",
+        "created_at": "2024-01-10T21:42:39Z"
+      },
+      {
+        "id": "f857b0d7-3c0b-4552-a2e3-109e0ac3e579",
+        "name": "Quality Assurance",
+        "icon": "a",
+        "code": "QA",
+        "members": 110,
+        "updated_by": "Shaheen Hyder",
+        "updated_at": "2023-05-25T21:45:28Z",
+        "created_by": "Shaheen Hyder",
+        "created_at": "2023-05-25T21:45:28Z"
+      }
+    ]
+  }
+}
