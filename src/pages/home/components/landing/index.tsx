@@ -3,6 +3,9 @@ import image from './image.png'
 type Props = {};
 
 export const Landing = (_props: Props) => {
+   const handleClick = () => {
+     window.open("https://discord.mulearn.org", "_blank");
+   };
   return (
     <div className={styles.Wrapper}>
       <div className={styles.header}>
@@ -11,7 +14,8 @@ export const Landing = (_props: Props) => {
         </h1>
         <h1>Together.</h1>
       </div>
-      <button>Join</button>
+      <button onClick={handleClick}>Join</button>
+
       <img src={image} alt="" />
     </div>
   );

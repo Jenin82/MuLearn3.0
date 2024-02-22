@@ -21,9 +21,23 @@
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  gap: 15px 10px;
 }
 .Wrapper .logowrapper img{
-    width: calc(100% / 4);
+    width: calc(100% / 4 - 8px);
     height: 40px;
     object-fit: contain;
+}
+
+
+.Wrapper .mustoryheader{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+.Wrapper iframe{
+    border-radius: 15px;
+    align-self: flex-end;
 }

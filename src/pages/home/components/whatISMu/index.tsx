@@ -44,7 +44,7 @@ export const WhatISMu = (_props: Props) => {
         </div>
       </div>
       <div>
-        <div>
+        <div className={styles.mustoryheader}>
           <h1>
             The Story of Aami <span className="colorText">MuStory</span>
           </h1>

@@ -46,7 +46,11 @@ a {
   color: #c064ec;
 }
 
-h1{
+h1,h2{
+    margin: 0;
+}
+
+p{
     margin: 0;
 }
 input {
