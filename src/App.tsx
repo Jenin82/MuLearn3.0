@@ -7,6 +7,7 @@ import { Learning } from "./pages/learning";
 import { Events } from "./pages/events";
 import { Profile } from "./pages/profile";
 import { Notification } from "./pages/notification";
+import { DetaliEvent } from "./pages/events/components/detailEvent";
 
 function App() {
 	const router = createBrowserRouter([
@@ -42,6 +43,10 @@ function App() {
     {
       path: "/notification",
       element: <Notification />,
+    },
+    {
+      path: "/detailevent/:id",
+      element: <DetaliEvent />,
     },
   ]);
 	return (
