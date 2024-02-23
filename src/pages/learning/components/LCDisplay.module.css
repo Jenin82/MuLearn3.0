@@ -1,3 +1,12 @@
+.Wrapper {
+  width: 100%;
+  min-height: 100vh;
+  padding: 0px 10%;
+}
 .ig {
-    text-align: left;
+  text-align: left;
+}
+
+.ig h2 {
+  font-size: 25px;
 }
