@@ -1,12 +1,20 @@
 .Wrapper {
-  width: 100%;
-  min-height: 100vh;
-  padding: 0px 10%;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0px 10%;
 }
+
+.Wrapper .igName {
+    text-align: left;
+    font-size: 30px;
+    padding-bottom: 30px;
+    color: #C064EC;
+}
+
 .ig {
-  text-align: left;
+    text-align: left;
 }
 
 .ig h2 {
-  font-size: 25px;
+    font-size: 25px;
 }

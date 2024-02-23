@@ -1,15 +1,15 @@
-import axios, { AxiosResponse } from "axios";
+import { AxiosResponse } from "axios";
 import { publicGateway } from "../../services/apiGateways";
 
-export const getIGs = async () => {
+export const getIGs = async (id: string, districtId: string) => {
     try {
         const response: AxiosResponse =
-            await axios
-                .get("https://dev.mulearn.org/api/v1/public/lc-list", {
-                    // ig_id: id,
-                    // district_id: districtId
+            await publicGateway
+                .post("api/v1/dashboard/lc/list/", {
+                    ig_id: id,
+                    district_id: districtId
                 });
-        return response.data;
+        return response?.data;
     }
     catch (error) {
         console.log(error)

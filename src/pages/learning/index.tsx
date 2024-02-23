@@ -21,9 +21,11 @@ export const Learning = (_props: Props) => {
   const navigate = useNavigate();
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [options, setOptions] = useState<Option[]>([])
+  const [selectedIg, setSelectedIg] = useState<Option>();
   const [selectedOption, setSelectedOption] = useState<string>('');
 
-  const openModal = () => {
+  const openModal = (ig: Option) => {
+    setSelectedIg(ig);
     setIsModalOpen(true);
   };
   const closeModal = () => {
@@ -33,9 +35,9 @@ export const Learning = (_props: Props) => {
   }
   const handleSubmit = async () => {
 
-    const Igs = await getIGs();
+    const Igs = await getIGs(selectedIg?.id || "", selectedOption);
     console.log(Igs)
-    navigate(`/ig`,{state:{Igs:Igs}});
+    navigate(`/ig`, { state: { Igs: Igs, selectedIg: selectedIg } });
   }
 
   const handleChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
@@ -70,12 +72,13 @@ export const Learning = (_props: Props) => {
       <div>
         {interestGroups.map((ig) => {
           return (
-            <button className={styles.buttonStyle} key={ig.id} onClick={() => openModal()}>
+            <button className={styles.buttonStyle} key={ig.id} onClick={() => openModal(ig)}>
               {ig.name}
             </button>
           )
         })}
         <Modal isOpen={isModalOpen} closeModal={closeModal}>
+          {selectedIg?.name}
           <div className={styles.modalSelect}>
             <label htmlFor="district">Choose your District:</label>
 
